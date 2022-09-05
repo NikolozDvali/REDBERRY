@@ -1,0 +1,40 @@
+
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url(./HelveticaNeue/HelveticaNeue-01.ttf);
+   }
+
+h1{
+    font-family: HelveticaNeue;
+    margin-top: 0;
+    padding-top: 0;
+}
+p{
+    font-family: HelveticaNeue;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+#title{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.3vh;
+    font-size: 34px;
+}
+
+#goBack{
+    background:url(./Group4.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width: 4.9vw;
+    height: 4.9vw;
+    position: absolute;
+    margin-top: 4.3vh;
+    margin-left: 3.6vw;
+}
+
+#goBack:active  /* use Dot here */
+{   
+    background:url(./Group4.png) no-repeat;
+}
